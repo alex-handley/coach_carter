@@ -20,6 +20,7 @@ group :development, :test do
   gem "web-console",                "~> 2.0.0"
   gem "spring",                     "~> 1.2.0"
   gem "spring-commands-rspec",      "~> 1.0.1"
+  gem "faker",                      "~> 1.4.3"
 end
 
 group :test do
