@@ -7,6 +7,7 @@ gem "pg",                           "0.18.1"
 
 gem "jbuilder",                     "~> 2.2.6"
 gem "bcrypt",                       "~> 3.1.7"
+gem "simple_form",                  "~> 3.1.0"
 
 gem "sass-rails",                   "~> 5.0.1"
 gem "uglifier",                     ">= 1.3.0"
