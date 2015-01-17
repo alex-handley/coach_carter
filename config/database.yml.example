@@ -1,0 +1,12 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: coach_carter_development
+
+test:
+  <<: *default
+  database: coach_carter_test
