@@ -8,12 +8,11 @@ gem "pg",                           "0.18.1"
 gem "jbuilder",                     "~> 2.2.6"
 gem "bcrypt",                       "~> 3.1.7"
 
-group :assets do
-  gem "sass-rails",                   "~> 5.0.1"
-  gem "uglifier",                     ">= 1.3.0"
-  gem "coffee-rails",                 "~> 4.1.0"
-  gem "jquery-rails",                 "~> 4.0.3"
-end
+gem "sass-rails",                   "~> 5.0.1"
+gem "uglifier",                     ">= 1.3.0"
+gem "coffee-rails",                 "~> 4.1.0"
+gem "jquery-rails",                 "~> 4.0.3"
+gem "foundation-rails",             "~> 5.4.5"
 
 group :development, :test do
   gem "byebug",                     "~> 3.5.1"
